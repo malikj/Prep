@@ -289,14 +289,16 @@ class SubArrayGivenSum {
         
         var dic = [Int:Int]()
         
+       //  var array = [-4, 0, 1, 2, 4, -23, 7, 6, 9, 12, 8]
+
         // Maintains sum of elements so far
-        
+//        (-4, 12), (0, 8 )(1, 7), (2, 6)
         //        var inputArrayTwo = [8, 7, 2, 5, 3, 1]
-        
+        var count = 0;
         for i in 0..<arr.count {
             if(dic[givensum - arr[i]] != nil){
-                print("sum found between indexes \(String(describing: dic[givensum - arr[i]])) and \(i)")
-                return
+//                print("sum found between indexes \(String(describing: dic[givensum - arr[i]])) and \(i)")
+                count = count + 1
             }
             dic[arr[i]] = i;
         }

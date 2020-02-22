@@ -8,6 +8,58 @@
 
 import Foundation
 
+
+class StringProblems {
+    
+    func firstNonRepeatingCharacterInString(string:String){
+        
+        var counts : [Character : Int] = [:]
+        for character in string {
+            counts[character] = (counts[character] ?? 0) + 1;
+        }
+        let nonRepeatingChars = string.filter({counts[$0] == 1})
+        
+        print("first nonRepeating is \(String(describing: nonRepeatingChars.first))")
+    }
+}
+
+public class NumberToWords {
+  
+  static let lessThanTwenty = ["","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Eleven","Tweleve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen"]
+  static let tens = ["","Twenty","Thirty","Fourty","Fifty","Sixty","Seventy","Eighty","Nenety"]
+  static let thousands = ["","Thousand","Million","Billion"]
+  
+  public class func numberToWords(number:Int) -> String{
+    if number == 0 {
+      return "Zero"
+    }
+    var num = number
+    var result = ""
+    var i = 0
+    while num > 0 {
+      if num % 1_000 != 0 {
+        result = helper(n: num % 1_000) + thousands[i] + " " + result
+      }
+      num /= 1_000
+      i += 1
+    }
+    return result.trimmingCharacters(in:CharacterSet.whitespacesAndNewlines)
+  }
+  
+  private class func helper(n:Int) -> String {
+    if n == 0 {
+      return ""
+    }else if n < 20 {
+      return lessThanTwenty[n]
+    }else if n < 1_00 {
+      return tens[n/10]  + helper(n: n%10)
+    }else {
+      return lessThanTwenty[n/1_00] + "Hundred" + helper(n: n%1_00)
+    }
+  }
+  
+}
+
 private extension String {
     /*
      Ref: http://oleb.net/blog/2014/07/swift-strings/
@@ -58,7 +110,7 @@ class strProblems {
     
     func URLify(inputString : String, stringSize : Int) -> String {
         var newString : String = "";
-        for letter in inputString.characters {
+        for letter in inputString {
             if(letter == " "){
                 newString+="%20";
             } else {

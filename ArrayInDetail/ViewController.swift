@@ -308,6 +308,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let arrayTwow = [-4, 0, 1, 2, 4, -23, 7, 6, 9, 12, 8]
+               let sum =  8
+        var array:[Int] = [8, 7, 2, 5, 3, 1]
+
+            SubArrayGivenSum.findPairWithGivenSum(arr: arrayTwow, givensum: sum)
+        
+       
+        countPairs(inputArray: arrayTwow, sum: sum)
          LCMediumProblems()
 
         removeDuplicates();
@@ -345,8 +353,8 @@ class ViewController: UIViewController {
 //        LargestAndSmallest.FindLargesAndSecondLargestElement();
 //        LargestAndSmallest.findLargestAndSmallest()
 //
-                    var array:[Int] = [8, 7, 2, 5, 3, 1]
-
+//                    var array:[Int] = [8, 7, 2, 5, 3, 1]
+//
 //        SubArrayGivenSum.findPairWithGivenSum(arr: array, givensum: 10)
 //        SubArrayGivenSum.zeroSumSubarray()
         SubArrayGivenSum.PrintAllSubArrayWithZero();
@@ -1295,7 +1303,51 @@ class ViewController: UIViewController {
             print(evenNumbers)
 
         }
+    
+     static func findPairWithGivenSum(arr:[Int],givensum:Int) {
+            
+            var dic = [Int:Int]()
+            
+           //  var array = [-4, 0, 1, 2, 4, -23, 7, 6, 9, 12, 8]
+
+            // Maintains sum of elements so far
+    //        (-4, 12), (0, 8 )(1, 7), (2, 6)
+            //        var inputArrayTwo = [8, 7, 2, 5, 3, 1]
+            var count = 0;
+            for i in 0..<arr.count {
+                if(dic[givensum - arr[i]] != nil){
+    //                print("sum found between indexes \(String(describing: dic[givensum - arr[i]])) and \(i)")
+                    count = count + 1
+                }
+                dic[arr[i]] = i;
+            }
+            print( "No pair with given sum exists");
+            
+            
+        }
         
+    
+    func countPairs(inputArray:[Int], sum:Int) {
+        var mapDic = [Int:Int]();
+        var count = 0
+        for i in 0..<inputArray.count {
+            mapDic[inputArray[i]] = i
+        }
+//        twice_count += m[sum-arr[i]];
+//countPairs
+//        let arrayTwow = [-4, 0, 1, 2, 4, -23, 7, 6, 9, 12, 8]
+
+        print("mapDic \(mapDic)")
+        for i in 0..<inputArray.count {
+            print("mapDic \(mapDic)")
+            print("mapDic[sum-inputArray[i]]! \(mapDic[sum-inputArray[i]]!)")
+            count = count + mapDic[sum-inputArray[i]]!
+            if((sum - inputArray[i]) == inputArray[i]){
+                count = count+1;
+            }
+        }
+        print("count is \(count)")
+    }
 
         
         // MARK - Fibonacci Function
@@ -1375,6 +1427,34 @@ class ViewController: UIViewController {
             }
             
         }
+    
+    func reverseString(_ s: inout [Character]) {
+
+        let length = s.count
+        let middle = s.count / 2
+
+        for i in (0..<middle).reversed(){
+            let j = length - 1  - i
+            s.swapAt(i, j)
+        }
+    }
+    
+    func reverse(_ x: Int) -> Int {
+        let negative = x < 0
+        var x = negative ? -x : x
+        var result = 0
+
+        while x > 0 {
+            result = result * 10 + x % 10
+            x = x / 10
+        }
+
+        if Int32.max < result || Int32.min > result {
+            return 0
+        }
+
+        return negative ? -result : result
+    }
         
          func Reversesolution(_ array:[Int]) -> [Int] {
               var reverseArray: [Int] = [Int]()

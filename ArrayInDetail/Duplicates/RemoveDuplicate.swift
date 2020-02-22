@@ -8,6 +8,15 @@
 
 import Foundation
 
+// https://www.avanderlee.com/swift/unique-values-removing-duplicates-array/
+
+extension Sequence where Iterator.Element: Hashable {
+    func unique() -> [Iterator.Element] {
+        var seen: Set<Iterator.Element> = []
+        return filter { seen.insert($0).inserted }
+    }
+}
+
 class RemoveDuplicateProblems {
 
     static func removeDuplicatesWithExtraArray(){
@@ -31,6 +40,11 @@ class RemoveDuplicateProblems {
     /// O(n) 
     static func removeDuplicates(){
         var a = [1, 2, 2, 3, 4, 4, 4, 5, 5]; //
+        
+        let array = [1, 2, 2, 3, 4, 4, 4, 5, 5]; //
+
+        print(array.unique()) // prints: [1, 2, 3]
+
         var j = 0;
         for i in 0..<a.count-1 {
             if(a[i] != a[i+1]){

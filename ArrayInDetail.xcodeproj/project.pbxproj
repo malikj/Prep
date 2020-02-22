@@ -12,6 +12,10 @@
 		961C5CD72382728C00ABEC84 /* ObserverCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C5CD62382728C00ABEC84 /* ObserverCenter.swift */; };
 		961C5CDA238272CF00ABEC84 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C5CD9238272CF00ABEC84 /* Observer.swift */; };
 		96363B022101E5E700B10286 /* ArrayOperataions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96363B012101E5E700B10286 /* ArrayOperataions.swift */; };
+		963A4AE123F1745D009078E2 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963A4AE023F1745D009078E2 /* Stack.swift */; };
+		963A4AE323F17576009078E2 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963A4AE223F17576009078E2 /* LinkedList.swift */; };
+		963F771723F960A500713BC6 /* BinaryTreePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963F771523F960A400713BC6 /* BinaryTreePractice.swift */; };
+		963F771823F960A500713BC6 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963F771623F960A500713BC6 /* BinarySearchTree.swift */; };
 		9672B79420F08E9B00349635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9672B79320F08E9B00349635 /* AppDelegate.swift */; };
 		9672B79620F08E9B00349635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9672B79520F08E9B00349635 /* ViewController.swift */; };
 		9672B79920F08E9B00349635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9672B79720F08E9B00349635 /* Main.storyboard */; };
@@ -40,6 +44,10 @@
 		961C5CD62382728C00ABEC84 /* ObserverCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverCenter.swift; sourceTree = "<group>"; };
 		961C5CD9238272CF00ABEC84 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		96363B012101E5E700B10286 /* ArrayOperataions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayOperataions.swift; sourceTree = "<group>"; };
+		963A4AE023F1745D009078E2 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		963A4AE223F17576009078E2 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		963F771523F960A400713BC6 /* BinaryTreePractice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreePractice.swift; sourceTree = "<group>"; };
+		963F771623F960A500713BC6 /* BinarySearchTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		9672B79020F08E9B00349635 /* ArrayInDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrayInDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9672B79320F08E9B00349635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9672B79520F08E9B00349635 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,9 +101,61 @@
 			path = ObserverPattern;
 			sourceTree = "<group>";
 		};
+		963A4ADD23F16B88009078E2 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				963A4AE023F1745D009078E2 /* Stack.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		963A4ADE23F16B9A009078E2 /* Linkedlist */ = {
+			isa = PBXGroup;
+			children = (
+				963A4AE223F17576009078E2 /* LinkedList.swift */,
+			);
+			path = Linkedlist;
+			sourceTree = "<group>";
+		};
+		963A4ADF23F16BA5009078E2 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		963F771323F9600C00713BC6 /* DS */ = {
+			isa = PBXGroup;
+			children = (
+				963F771923F9811E00713BC6 /* Graph */,
+				963F771423F9602500713BC6 /* BST-BinarySearchTree */,
+				963A4ADF23F16BA5009078E2 /* Queue */,
+				963A4ADE23F16B9A009078E2 /* Linkedlist */,
+				963A4ADD23F16B88009078E2 /* Stack */,
+			);
+			path = DS;
+			sourceTree = "<group>";
+		};
+		963F771423F9602500713BC6 /* BST-BinarySearchTree */ = {
+			isa = PBXGroup;
+			children = (
+				963F771623F960A500713BC6 /* BinarySearchTree.swift */,
+				963F771523F960A400713BC6 /* BinaryTreePractice.swift */,
+			);
+			path = "BST-BinarySearchTree";
+			sourceTree = "<group>";
+		};
+		963F771923F9811E00713BC6 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
 		9672B78720F08E9B00349635 = {
 			isa = PBXGroup;
 			children = (
+				963F771323F9600C00713BC6 /* DS */,
 				96FFF60723ED5F8C0072A424 /* HigherOrder */,
 				96DC6E3523EB0C19006613FF /* Design */,
 				96DC6E3223E9BE33006613FF /* Leetcode */,
@@ -336,17 +396,21 @@
 				96DC6E3A23EB1CF7006613FF /* HashingPronlems.swift in Sources */,
 				961C5CDA238272CF00ABEC84 /* Observer.swift in Sources */,
 				96AC69FE238AC296008E7FD5 /* StringProblems.swift in Sources */,
+				963F771723F960A500713BC6 /* BinaryTreePractice.swift in Sources */,
 				96C04E9A237336FB00E8EADA /* MinMax.swift in Sources */,
 				96D49142236F21900075AFCD /* SubArrayGivenSum.swift in Sources */,
+				963A4AE323F17576009078E2 /* LinkedList.swift in Sources */,
 				96DC6E3423E9BE62006613FF /* LCMedium.swift in Sources */,
 				96B3B1CD23609F130086B0E1 /* ViewControllerTwo.swift in Sources */,
 				96B54C592370726600B2E529 /* Rearrainge.swift in Sources */,
 				9672B79620F08E9B00349635 /* ViewController.swift in Sources */,
+				963A4AE123F1745D009078E2 /* Stack.swift in Sources */,
 				96D4913E236EF78B0075AFCD /* Largest-Smallest.swift in Sources */,
 				96BC0B8423A3AA1B009AF4D2 /* Group.swift in Sources */,
 				96B54C5223702A0800B2E529 /* Repeative.swift in Sources */,
 				960C1010236710B300BE7693 /* Arrayotherproblems.swift in Sources */,
 				96952F2823805017006FE4C7 /* Rotate.swift in Sources */,
+				963F771823F960A500713BC6 /* BinarySearchTree.swift in Sources */,
 				96DC6E3723EB0C6F006613FF /* ObserverPattern.swift in Sources */,
 				96FFF60923ED5FA60072A424 /* HighOrderFunction.swift in Sources */,
 				96363B022101E5E700B10286 /* ArrayOperataions.swift in Sources */,

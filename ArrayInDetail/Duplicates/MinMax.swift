@@ -10,6 +10,7 @@ import Foundation
 
 class MinMax {
     
+    
     static func MaxArrayAfterKOperation() {
         
         let kOperation = 4;
