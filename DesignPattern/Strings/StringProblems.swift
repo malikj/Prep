@@ -11,6 +11,263 @@ import Foundation
 
 class StringProblems {
     
+    func countCharacter(_ s: String) -> [Character:Int] {
+               var charCount = [Character:Int]()
+               for character in s.characters {
+                   if let _ = charCount[character] {
+                       charCount[character]! += 1
+                   } else {
+                       charCount[character] = 1
+                   }
+               }
+               return charCount
+           }
+    
+    func isAnagram(_ s: String, _ t: String) -> Bool {
+        let charCountS = countCharacter(s)
+        let charCountT = countCharacter(t)
+        if s.characters.count != t.characters.count {
+            return false
+        }
+        for (key, value) in charCountS {
+            if let count = charCountT[key] {
+                if count == value {
+                    continue
+                }
+            }
+            return false
+        }
+        return true
+    }
+    
+    func longestPalindrome(_ s: String) -> Int {
+        var dict = [Character : Int]()
+        var res = 0
+        
+        for c in s.characters {
+            if var i = dict[c] {
+                i += 1
+                if i == 2 {
+                    res += 2
+                    i = 0
+                }
+                dict[c] = i
+            } else {
+                dict[c] = 1
+            }
+        }
+        
+        if dict.contains(where: {$0.1 > 0 }) {
+            res += 1
+        }
+        
+        return res
+    }
+    
+    /**
+     Check the given 2 string are permutaion of each other.
+      both strings has to be the same lenght
+      "ABC" is permutatino of "CBA"
+     
+     - parameter string1:
+     - parameter string2:
+     
+     - returns: true if string1 and string2 is permutation of each other
+     */
+    public func stringPermutation(string1:String,string2:String) -> Bool{
+      if string1.count != string2.count {
+        return false
+      } else if string1 == string2 {
+        return true
+      }
+      return string1.sorted() == string2.sorted()
+    }
+
+    /**
+     This is the solution using dictionary
+     
+     - parameter string1:
+     - parameter string2:
+     
+     - returns: true if string1 and string2 is permutation of each other
+     */
+    public func stringPermutationWithDictionary(string1:String,string2:String) -> Bool{
+      let string1Chars = string1
+      let string2Chars = string2
+      if string1Chars.count != string2Chars.count {
+        return false
+      } else if string1 == string2 {
+        return true
+      }
+      
+      var dict:[Character:Int] = [:]
+      
+      for char in string1Chars {
+        if let count =  dict[char]  {
+          dict[char] = count + 1
+        }else {
+          dict[char] = 1
+        }
+      }
+      
+      for char in string2Chars {
+        if let count =  dict[char], count != 0  {
+          dict[char] = count - 1
+          if (count - 1) == 0 {
+            dict.removeValue(forKey: char)
+          }
+        }else {
+          return false
+        }
+        
+      }
+      return dict.isEmpty
+    }
+    
+    //BasicCalculator
+    /*
+     Implement a basic calculator to evaluate a simple expression string.
+     
+     The expression string may contain open ( and closing parentheses ), the plus + or minus sign -, non-negative integers and empty spaces .
+     
+     You may assume that the given expression is always valid.
+     
+     Some examples:
+     "1 + 1" = 2
+     " 2-1 + 2 " = 3
+     "(1+(4+5+2)-3)+(6+8)" = 23
+     Note: Do not use the eval built-in library function.
+     */
+    
+    func calculateI(_ s: String) -> Int {
+        let arr = (s+"#").map{String($0)}
+        var sign = 1
+        var ans = 0
+        var num = ""
+        var bracket = [Int]()
+        var currentBracket = 1
+        for element in arr {
+            if element == " " {
+                continue
+            }
+            let e = Int(element) ?? -1
+            if e >= 0 && e <= 9 {
+                num += element
+            }else if element == "("{
+                bracket.append(sign)
+                currentBracket *= sign
+                sign = 1
+            }else if element == ")" {
+                ans += sign * (Int(num) ?? 0) * currentBracket
+                num = ""
+                sign = 1
+                currentBracket *= bracket.removeLast()
+            }else {
+                ans += sign * (Int(num) ?? 0) * currentBracket
+                num = ""
+                sign = element == "+" ? 1 : -1
+            }
+        }
+        return ans
+    }
+    
+    func isAnagramTwo(_ s: String, _ t: String) -> Bool {
+        // Is t anagram of s?
+        /*
+         - you get two strings s and t.
+         -
+         - first check that s and t have the same length
+         - if they are of unequal length do the following
+         -
+         - let sum = 0
+         - convert s into list of ascii values sChars.
+         - sChars is a list of integers
+         
+         - similarly convert t into tChars, which is again a list of integers.
+         
+         - for n in 0..<length(s)
+         -      sum += (sChars[n] - tChars[n])
+         
+         - after the for loop
+         - if sum == 0, s and t are anagrams
+         - otherwise they are not anagrams
+    */
+        
+        guard s.count == t.count else {
+            return false
+        }
+        
+        var letters = [Int].init(repeating: 0, count: 26)
+        for ch in s.unicodeScalars {
+            // Values start at 97 so need the offset
+            letters[Int(ch.value) - 97] += 1
+        }
+    
+        for ch in t.unicodeScalars {
+            letters[Int(ch.value) - 97] -= 1
+        }
+    
+        return !letters.contains { $0 != 0 }
+    }
+    
+    /*
+       https://leetcode.com/problems/longest-common-prefix/
+        
+        Write a function to find the longest common prefix string amongst an array of strings.
+        
+        If there is no common prefix, return an empty string "".
+        
+        Example 1:
+        
+        Input: ["flower","flow","flight"]
+        Output: "fl"
+        Example 2:
+        
+        Input: ["dog","racecar","car"]
+        Output: ""
+        Explanation: There is no common prefix among the input strings.
+        Note:
+        
+        All given inputs are in lowercase letters a-z.
+    */
+    
+    func longestCommonPrefix(_ strs: [String]) -> String {
+        var prefix = ""
+        guard strs.count > 0 else { return prefix }
+
+        if let shortest = strs.min() {
+            for ch in shortest {
+                let testPrefix = prefix + String(ch)
+
+                if strs.lazy.filter({ $0.hasPrefix(testPrefix)}).count  == strs.count {
+                    prefix = testPrefix
+                } else {
+                    break
+                }
+            }
+        }
+
+        return prefix
+    }
+    
+    /*
+    * Given a string, you need to reverse the order of characters in each word
+    * within a sentence while still preserving whitespace and initial word order.
+    *
+    * Example 1:
+    * Input: "Let's take LeetCode contest"
+    * Output: "s'teL ekat edoCteeL tsetnoc"
+    */
+    
+    func reverseWords(_ s: String) -> String {
+        guard s.count > 0 else {
+            return ""
+        }
+        var res = s.split(separator: " ").map{ $0.reversed() }.reduce(""){ $0 + " " + $1}
+        res.remove(at: res.startIndex)
+        return res
+    }
+    
     func firstNonRepeatingCharacterInString(string:String){
         
         var counts : [Character : Int] = [:]
@@ -20,6 +277,42 @@ class StringProblems {
         let nonRepeatingChars = string.filter({counts[$0] == 1})
         
         print("first nonRepeating is \(String(describing: nonRepeatingChars.first))")
+    }
+    
+    /**
+    Given a non-empty string s and a dictionary wordDict containing a list of non-empty words, determine if s can be segmented into a space-separated sequence of one or more dictionary words. You may assume the dictionary does not contain duplicate words.
+    
+    For example, given
+    s = "leetcode",
+    dict = ["leet", "code"].
+    
+    Return true because "leetcode" can be segmented as "leet code".
+    */
+
+    func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {
+        
+        if s.isEmpty {
+            return true
+        }
+        
+        if wordDict.count == 0 {
+            return false
+        }
+        
+        var wordArray = Array.init(repeating: false, count: s.count + 1)
+        wordArray[0] = true
+        
+        for i in 1...s.count {
+            for j in stride(from: i-1, through: 0, by: -1) {
+
+                if wordArray[j] && wordDict.contains(String(s[s.index(s.startIndex, offsetBy: j)..<s.index(s.startIndex, offsetBy: i)])) {
+                    wordArray[i] = true
+                    break
+                }
+            }
+        }
+        
+        return wordArray[s.count]
     }
 }
 

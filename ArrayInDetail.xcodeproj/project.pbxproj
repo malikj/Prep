@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960643CD2401878C0034301D /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960643CC2401878C0034301D /* Queue.swift */; };
 		960C100E2366C17E00BE7693 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C100D2366C17E00BE7693 /* ThreeViewController.swift */; };
 		960C1010236710B300BE7693 /* Arrayotherproblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C100F236710B300BE7693 /* Arrayotherproblems.swift */; };
 		961C5CD72382728C00ABEC84 /* ObserverCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C5CD62382728C00ABEC84 /* ObserverCenter.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		960643CC2401878C0034301D /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		960C100D2366C17E00BE7693 /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
 		960C100F236710B300BE7693 /* Arrayotherproblems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrayotherproblems.swift; sourceTree = "<group>"; };
 		961C5CD62382728C00ABEC84 /* ObserverCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverCenter.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		963A4ADF23F16BA5009078E2 /* Queue */ = {
 			isa = PBXGroup;
 			children = (
+				960643CC2401878C0034301D /* Queue.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 				96D4913E236EF78B0075AFCD /* Largest-Smallest.swift in Sources */,
 				96BC0B8423A3AA1B009AF4D2 /* Group.swift in Sources */,
 				96B54C5223702A0800B2E529 /* Repeative.swift in Sources */,
+				960643CD2401878C0034301D /* Queue.swift in Sources */,
 				960C1010236710B300BE7693 /* Arrayotherproblems.swift in Sources */,
 				96952F2823805017006FE4C7 /* Rotate.swift in Sources */,
 				963F771823F960A500713BC6 /* BinarySearchTree.swift in Sources */,

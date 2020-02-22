@@ -176,6 +176,23 @@ class LargestAndSmallest {
         print(tuple)
     }
     
+    func binarySearchRecent(data: [Int], value: Int) -> Int {
+        var startIndex = 0
+        var endIndex = data.count - 1
+        var current = 0
+        
+        while current != value {
+            let index = (startIndex + endIndex) / 2
+            current = data[index]
+            if current < value {
+                startIndex = index + 1
+            } else if current > value {
+                endIndex = index - 1
+            }
+        }
+        return (startIndex + endIndex) / 2
+    }
+    
     
     static func binarySearch<T:Comparable>(inputArr:Array<T>, searchItem: T) -> Int? {
            var lowerIndex = 0;

@@ -11,6 +11,69 @@ import Foundation
 
 class LCMedium {
     
+    
+    //47. Permutations II
+    /*
+     Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+     
+     For example,
+     [1,1,2] have the following unique permutations:
+     [
+     [1,1,2],
+     [1,2,1],
+     [2,1,1]
+     ]
+     */
+    
+    func permuteUnique(_ nums: [Int]) -> [[Int]] {
+        var ans = [[Int]]()
+        func permute(nums: [Int], index: Int) {
+            if index == nums.count {
+                ans.append(nums)
+            }else {
+                var candidate = nums
+                for i in index..<candidate.count {
+                    if index != i && candidate[i] == candidate[index] { continue }
+                    candidate.swapAt(index, i)
+                    permute(nums: candidate, index: index + 1)
+                }
+            }
+        }
+        permute(nums: nums.sorted(), index: 0)
+        return ans
+    }
+    
+    //46. Permutations
+    /*
+     Given a collection of distinct numbers, return all possible permutations.
+     
+     For example,
+     [1,2,3] have the following permutations:
+     [
+     [1,2,3],
+     [1,3,2],
+     [2,1,3],
+     [2,3,1],
+     [3,1,2],
+     [3,2,1]
+     ]
+     */
+    
+    func permute(_ nums: [Int]) -> [[Int]] {
+        if nums.count <= 1 {
+            return [nums]
+        }
+        var res = [[Int]]()
+        for (i, num) in nums.enumerated() {
+            var tmp = nums
+            tmp.remove(at: i)
+            for n in permute(tmp) {
+                res.append([num] + n)
+            }
+        }
+        return res
+    }
+    
     static func searchInsert(arrayData:[Int], targetValue : Int) -> Int{
         if(arrayData.count<1) {
             return 0

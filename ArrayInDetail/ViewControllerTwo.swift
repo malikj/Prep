@@ -252,6 +252,27 @@ class ViewControllerTwo: UIViewController {
     
     }
     
+    func moveZeroesTwo(_ nums: inout [Int]) {
+        let count = nums.count
+        nums = nums.filter { $0 != 0 }
+        let newCount = nums.count
+        for _ in 0..<count - newCount {
+            nums.append(0)
+        }
+    }
+    
+    
+    func moveZeroes(_ nums: inout [Int]) {
+        var j = 0
+        for i in 0..<nums.count {
+            if nums[i] != 0 {
+                let temp = nums[j]
+                nums[j] = nums[i]
+                nums[i] = temp
+                j += 1
+            }
+        }
+    }
     
     
     // https://www.geeksforgeeks.org/move-zeroes-end-array/ idaptive

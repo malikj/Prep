@@ -509,8 +509,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "278"
             endingLineNumber = "278"
-            landmarkName = "funcMoveZeroToFirst()"
-            landmarkType = "7">
+            landmarkName = "ViewControllerTwo"
+            landmarkType = "3">
             <Locations>
                <Location
                   uuid = "9354AEC6-2155-4006-B1AB-43B34C04FEFD - 487251b8459b777e"
@@ -557,8 +557,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1440"
             endingLineNumber = "1440"
-            landmarkName = "ViewController"
-            landmarkType = "3">
+            landmarkName = "reverseString(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -573,7 +573,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1448"
             endingLineNumber = "1448"
-            landmarkName = "solutionWithSameArray(_:)"
+            landmarkName = "reverse(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -637,7 +637,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "345"
             endingLineNumber = "345"
-            landmarkName = "FindLargestContiguousSubArrayDivideAndConque(elements:l:h:)"
+            landmarkName = "FindLargestContiguousSubArrayNaiveWithKadanes()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -653,7 +653,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "419"
             endingLineNumber = "419"
-            landmarkName = "maxCrossingSum(elements:l:m:h:)"
+            landmarkName = "FindLargestContiguousSubArrayDivideAndConque(elements:l:h:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -669,7 +669,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "429"
             endingLineNumber = "429"
-            landmarkName = "maxCrossingSum(elements:l:m:h:)"
+            landmarkName = "FindLargestContiguousSubArrayDivideAndConque(elements:l:h:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -701,8 +701,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "362"
             endingLineNumber = "362"
-            landmarkName = "FindLargestContiguousSubArrayDivideAndConque(elements:l:h:)"
-            landmarkType = "7">
+            landmarkName = "ViewControllerTwo"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -749,8 +749,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "358"
             endingLineNumber = "358"
-            landmarkName = "FindLargestContiguousSubArrayDivideAndConque(elements:l:h:)"
-            landmarkType = "7">
+            landmarkName = "ViewControllerTwo"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -765,7 +765,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "430"
             endingLineNumber = "430"
-            landmarkName = "maxCrossingSum(elements:l:m:h:)"
+            landmarkName = "FindLargestContiguousSubArrayDivideAndConque(elements:l:h:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -829,8 +829,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "308"
             endingLineNumber = "308"
-            landmarkName = "FindLargestContiguousSubArrayNaiveWithKadanes()"
-            landmarkType = "7">
+            landmarkName = "ViewControllerTwo"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -845,8 +845,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "264"
             endingLineNumber = "264"
-            landmarkName = "funcMoveZeroToFirst()"
-            landmarkType = "7">
+            landmarkName = "ViewControllerTwo"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1677,7 +1677,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
             endingLineNumber = "33"
-            landmarkName = "numberToWords(number:)"
+            landmarkName = "isAnagram(_:_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1997,8 +1997,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "185"
             endingLineNumber = "185"
-            landmarkName = "LargestAndSmallest"
-            landmarkType = "3">
+            landmarkName = "binarySearch(inputArr:searchItem:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2013,8 +2013,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "183"
             endingLineNumber = "183"
-            landmarkName = "LargestAndSmallest"
-            landmarkType = "3">
+            landmarkName = "binarySearch(inputArr:searchItem:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2029,7 +2029,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "102"
             endingLineNumber = "102"
-            landmarkName = "kthLargest(_:_:)"
+            landmarkName = "searchElement(arr:element:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2045,7 +2045,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "107"
             endingLineNumber = "107"
-            landmarkName = "kthLargest(_:_:)"
+            landmarkName = "searchElement(arr:element:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2061,8 +2061,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "115"
             endingLineNumber = "115"
-            landmarkName = "LargestAndSmallest"
-            landmarkType = "3">
+            landmarkName = "searchElement(arr:element:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2077,7 +2077,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "110"
             endingLineNumber = "110"
-            landmarkName = "kthLargest(_:_:)"
+            landmarkName = "searchElement(arr:element:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2093,7 +2093,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "104"
             endingLineNumber = "104"
-            landmarkName = "kthLargest(_:_:)"
+            landmarkName = "searchElement(arr:element:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2109,8 +2109,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "174"
             endingLineNumber = "174"
-            landmarkName = "LargestAndSmallest"
-            landmarkType = "3">
+            landmarkName = "findElementInUnSortedArray()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2575,6 +2575,38 @@
             endingLineNumber = "298"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05B6BB60-45AD-47C3-A208-CE23C45A4E35"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArrayInDetail/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BADD06A6-765E-49F3-84A7-EEC64E9D7BFF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArrayInDetail/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
