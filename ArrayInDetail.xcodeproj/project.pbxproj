@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960092E1240295170081FF3D /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960092E0240295170081FF3D /* Search.swift */; };
 		960643CD2401878C0034301D /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960643CC2401878C0034301D /* Queue.swift */; };
 		960C100E2366C17E00BE7693 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C100D2366C17E00BE7693 /* ThreeViewController.swift */; };
 		960C1010236710B300BE7693 /* Arrayotherproblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C100F236710B300BE7693 /* Arrayotherproblems.swift */; };
 		961C5CD72382728C00ABEC84 /* ObserverCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C5CD62382728C00ABEC84 /* ObserverCenter.swift */; };
 		961C5CDA238272CF00ABEC84 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C5CD9238272CF00ABEC84 /* Observer.swift */; };
-		96363B022101E5E700B10286 /* ArrayOperataions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96363B012101E5E700B10286 /* ArrayOperataions.swift */; };
 		963A4AE123F1745D009078E2 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963A4AE023F1745D009078E2 /* Stack.swift */; };
 		963A4AE323F17576009078E2 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963A4AE223F17576009078E2 /* LinkedList.swift */; };
 		963F771723F960A500713BC6 /* BinaryTreePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963F771523F960A400713BC6 /* BinaryTreePractice.swift */; };
@@ -35,17 +35,17 @@
 		96D49142236F21900075AFCD /* SubArrayGivenSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D49141236F21900075AFCD /* SubArrayGivenSum.swift */; };
 		96DC6E3423E9BE62006613FF /* LCMedium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DC6E3323E9BE62006613FF /* LCMedium.swift */; };
 		96DC6E3723EB0C6F006613FF /* ObserverPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DC6E3623EB0C6F006613FF /* ObserverPattern.swift */; };
-		96DC6E3A23EB1CF7006613FF /* HashingPronlems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DC6E3923EB1CF7006613FF /* HashingPronlems.swift */; };
+		96DC6E3A23EB1CF7006613FF /* HashingProblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DC6E3923EB1CF7006613FF /* HashingProblems.swift */; };
 		96FFF60923ED5FA60072A424 /* HighOrderFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FFF60823ED5FA60072A424 /* HighOrderFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		960092E0240295170081FF3D /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		960643CC2401878C0034301D /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		960C100D2366C17E00BE7693 /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
 		960C100F236710B300BE7693 /* Arrayotherproblems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrayotherproblems.swift; sourceTree = "<group>"; };
 		961C5CD62382728C00ABEC84 /* ObserverCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverCenter.swift; sourceTree = "<group>"; };
 		961C5CD9238272CF00ABEC84 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
-		96363B012101E5E700B10286 /* ArrayOperataions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayOperataions.swift; sourceTree = "<group>"; };
 		963A4AE023F1745D009078E2 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		963A4AE223F17576009078E2 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		963F771523F960A400713BC6 /* BinaryTreePractice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreePractice.swift; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		96D49141236F21900075AFCD /* SubArrayGivenSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubArrayGivenSum.swift; sourceTree = "<group>"; };
 		96DC6E3323E9BE62006613FF /* LCMedium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCMedium.swift; sourceTree = "<group>"; };
 		96DC6E3623EB0C6F006613FF /* ObserverPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPattern.swift; sourceTree = "<group>"; };
-		96DC6E3923EB1CF7006613FF /* HashingPronlems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashingPronlems.swift; sourceTree = "<group>"; };
+		96DC6E3923EB1CF7006613FF /* HashingProblems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashingProblems.swift; sourceTree = "<group>"; };
 		96FFF60823ED5FA60072A424 /* HighOrderFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HighOrderFunction.swift; path = ../../Stack/Stack/HighOrderFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		960092DF240294FB0081FF3D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				960092E0240295170081FF3D /* Search.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		961C5CD52382725C00ABEC84 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,13 +187,13 @@
 		9672B79220F08E9B00349635 /* ArrayInDetail */ = {
 			isa = PBXGroup;
 			children = (
+				960092DF240294FB0081FF3D /* Search */,
 				96DC6E3823EB1CDE006613FF /* Hashing */,
 				96BC0B8223A3AA02009AF4D2 /* Group */,
 				9672B79320F08E9B00349635 /* AppDelegate.swift */,
 				960C100D2366C17E00BE7693 /* ThreeViewController.swift */,
 				96B3B1CC23609F130086B0E1 /* ViewControllerTwo.swift */,
 				9672B79520F08E9B00349635 /* ViewController.swift */,
-				96363B012101E5E700B10286 /* ArrayOperataions.swift */,
 				96952F2623805001006FE4C7 /* Rotation */,
 				96C04E98237336B500E8EADA /* Min-Max */,
 				96B54C5A23707F2D00B2E529 /* Duplicates */,
@@ -310,7 +318,7 @@
 		96DC6E3823EB1CDE006613FF /* Hashing */ = {
 			isa = PBXGroup;
 			children = (
-				96DC6E3923EB1CF7006613FF /* HashingPronlems.swift */,
+				96DC6E3923EB1CF7006613FF /* HashingProblems.swift */,
 			);
 			name = Hashing;
 			path = "New Group";
@@ -396,7 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				961C5CD72382728C00ABEC84 /* ObserverCenter.swift in Sources */,
-				96DC6E3A23EB1CF7006613FF /* HashingPronlems.swift in Sources */,
+				96DC6E3A23EB1CF7006613FF /* HashingProblems.swift in Sources */,
 				961C5CDA238272CF00ABEC84 /* Observer.swift in Sources */,
 				96AC69FE238AC296008E7FD5 /* StringProblems.swift in Sources */,
 				963F771723F960A500713BC6 /* BinaryTreePractice.swift in Sources */,
@@ -408,6 +416,7 @@
 				96B54C592370726600B2E529 /* Rearrainge.swift in Sources */,
 				9672B79620F08E9B00349635 /* ViewController.swift in Sources */,
 				963A4AE123F1745D009078E2 /* Stack.swift in Sources */,
+				960092E1240295170081FF3D /* Search.swift in Sources */,
 				96D4913E236EF78B0075AFCD /* Largest-Smallest.swift in Sources */,
 				96BC0B8423A3AA1B009AF4D2 /* Group.swift in Sources */,
 				96B54C5223702A0800B2E529 /* Repeative.swift in Sources */,
@@ -417,7 +426,6 @@
 				963F771823F960A500713BC6 /* BinarySearchTree.swift in Sources */,
 				96DC6E3723EB0C6F006613FF /* ObserverPattern.swift in Sources */,
 				96FFF60923ED5FA60072A424 /* HighOrderFunction.swift in Sources */,
-				96363B022101E5E700B10286 /* ArrayOperataions.swift in Sources */,
 				9672B79420F08E9B00349635 /* AppDelegate.swift in Sources */,
 				96B54C5C23707F4100B2E529 /* RemoveDuplicate.swift in Sources */,
 				960C100E2366C17E00BE7693 /* ThreeViewController.swift in Sources */,

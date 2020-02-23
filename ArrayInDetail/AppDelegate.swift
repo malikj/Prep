@@ -15,11 +15,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         
-        ValidParenthesis.test();
-        
+//        HashingProblemsss();
+      
+        SearchProblems();
         return true
+    }
+    
+    func SearchProblems() {
+        Search.searchElementInArray()
+    }
+    func HashingProblemsss(){
+        
+            let inputArray = [1, 14, 11, 51, 15]
+
+//        int n = arr.Length;
+//        int low = 1, high = 10;
+//        HashingProblems.zeroSumSubarray();
+//        HashingProblems.findMissingRange(array: inputArray, low: 50, high: 55)
+        
+        HashingProblems.PrintAllSubArrayWithZero()
+        
+          // Override point for customization after application launch.
+        //        let inputArray = [1, 2, 1, 3, 4, 2, 3]
+        //
+        //        let ar = [[11, 20],[30, 40], [5, 10], [40, 30], [10, 5]]
+        //
+        ////        int arr[] =  {1, 9, 3, 10, 4, 20, 2};
+        //
+        //        let arraylogestConSubSeq = [1, 9, 3, 10, 4, 20, 2]
+        //        HashingProblems.findLongestConseqSubseq(array: arraylogestConSubSeq);
+        //        HashingProblems.countDistinctNew(a: inputArray, k: 4, n: inputArray.count)
+        //        HashingProblems.countDisdinct(arr: inputArray, k: 4)
+        //        HashingProblems.findSymPairs(array: ar);
+        //        ValidParenthesis.test();
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

@@ -102,6 +102,7 @@ class ViewControllerTwo: UIViewController {
         return result
     }
     
+    // check from hashing
         func longestConsecutive(_ A: [Int]) -> Int {
             var uniqueElemsInArray: Set<Int> = Set()
             var ans = 0, longestSeqLength = 0
@@ -217,8 +218,8 @@ class ViewControllerTwo: UIViewController {
     }
     
     
+    // https://www.geeksforgeeks.org/find-subarray-with-given-sum-in-array-of-integers/
     func FindSubArrayWithGivenSum(arr:[Int],givensum:Int) {
-        
         
         var dic = [Int:Int]()
         

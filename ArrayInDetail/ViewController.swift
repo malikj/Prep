@@ -119,35 +119,7 @@ class ViewController: UIViewController {
         return 0
       }
     
-//    func minSumThree(num: [Int], k: Int) -> Int {
-//        // Write your code here
-//        // if array count is less than 1 return 0 or empty
-//
-//            let min_so_far = INT_MAX, min_ending_here = 0;
-//
-//
-//        for i in 1..<k {
-//            min_ending_here = min_ending_here+
-//            for j in num {
-//                finalVal  = finalVal + Double((j/2));
-//                finalVal.round(.toNearestOrAwayFromZero)
-//            }
-//        }
-//
-//      if(num.count < 1){
-//          return 0;
-//      }
-//      var finalVal = 0.0;
-//      for i in 1..<k {
-//                    max_ending_here = max_ending_here + a[i];
-//
-//          for j in num {
-//              finalVal  = finalVal + Double((j/2));
-//              finalVal.round(.toNearestOrAwayFromZero)
-//          }
-//      }
-//      return Int(finalVal);
-//    }
+
 //
 //    int maxSubArraySum(int a[], int size)
 //    {
@@ -302,7 +274,7 @@ class ViewController: UIViewController {
         var inputArray =  [7, 10, 4, 3, 20, 15]
 //        LargestAndSmallest.kthLargest(inputArray, 3)
 //        LargestAndSmallest.findElementInUnSortedArray();
-        LargestAndSmallest.searchElement(arr: &inputArray,element: 3)
+//        LargestAndSmallest.searchElement(arr: &inputArray,element: 3)
     }
     
     override func viewDidLoad() {
@@ -1328,25 +1300,25 @@ class ViewController: UIViewController {
         
     
     func countPairs(inputArray:[Int], sum:Int) {
-        var mapDic = [Int:Int]();
-        var count = 0
-        for i in 0..<inputArray.count {
-            mapDic[inputArray[i]] = i
-        }
-//        twice_count += m[sum-arr[i]];
-//countPairs
-//        let arrayTwow = [-4, 0, 1, 2, 4, -23, 7, 6, 9, 12, 8]
-
-        print("mapDic \(mapDic)")
-        for i in 0..<inputArray.count {
-            print("mapDic \(mapDic)")
-            print("mapDic[sum-inputArray[i]]! \(mapDic[sum-inputArray[i]]!)")
-            count = count + mapDic[sum-inputArray[i]]!
-            if((sum - inputArray[i]) == inputArray[i]){
-                count = count+1;
-            }
-        }
-        print("count is \(count)")
+//        var mapDic = [Int:Int]();
+//        var count = 0
+//        for i in 0..<inputArray.count {
+//            mapDic[inputArray[i]] = i
+//        }
+////        twice_count += m[sum-arr[i]];
+////countPairs
+////        let arrayTwow = [-4, 0, 1, 2, 4, -23, 7, 6, 9, 12, 8]
+//
+//        print("mapDic \(mapDic)")
+//        for i in 0..<inputArray.count {
+//            print("mapDic \(mapDic)")
+//            print("mapDic[sum-inputArray[i]]! \(mapDic[sum-inputArray[i]]!)")
+//            count = count + mapDic[sum-inputArray[i]]!
+//            if((sum - inputArray[i]) == inputArray[i]){
+//                count = count+1;
+//            }
+//        }
+//        print("count is \(count)")
     }
 
         

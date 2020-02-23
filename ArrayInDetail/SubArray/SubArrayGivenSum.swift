@@ -254,7 +254,6 @@ class SubArrayGivenSum {
     
     static func zeroSumSubarray() {
         
-        
         var set = Set<Int>()
         set.insert(0)
         
@@ -275,6 +274,52 @@ class SubArrayGivenSum {
         print( "Not present");
         
     }
+    
+       func FindLargestContiguousSubArrayNaiveWithKadanes(){
+    //        let inputArray = [-2, -3, 4, -1, -2, 1, 5, -3];
+    //        var maxSofar = inputArray[0];
+    //        var curr_max = inputArray[0];
+    //
+    //        for i in 1..<inputArray.count {
+    //
+    //            curr_max = max(inputArray[i], curr_max+inputArray[i]);
+    //            maxSofar = max(maxSofar, curr_max);
+    //
+    //        }
+    //
+    //        print("maxSofar - \(maxSofar)");
+            
+            // method two
+            
+            // https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+            
+            var maxSofar = INT8_MIN;
+            var curr_max = 0;
+            
+            var start = 0, s = 0;
+            var end = 0;
+            
+            let inputArray = [-2, -3, 4, -1, -2, 1, 5, -3];
+
+            for i in 0..<inputArray.count {
+                curr_max = curr_max + inputArray[i];
+                if(maxSofar < curr_max) {
+                    maxSofar = Int32(curr_max);
+                    start = s;
+                    end = i
+                }
+                if (curr_max < 0){
+                    curr_max = 0;
+                    s =  i+1;
+                }
+                
+            }
+            
+            print(" start is \(start) and end is \(end)");
+            
+            print("maxSofar - \(maxSofar)");
+
+        }
     
     
     // https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/

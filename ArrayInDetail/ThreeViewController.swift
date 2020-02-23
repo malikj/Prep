@@ -80,6 +80,7 @@ class ThreeViewController: UIViewController {
     
     // check this only https://www.geeksforgeeks.org/longest-consecutive-subsequence/
     // below is difficult
+    // check from HashingProblem  - with Hashing
     func LongestConsecutiveSequence(){
         
 //        For example,

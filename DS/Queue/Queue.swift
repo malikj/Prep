@@ -84,7 +84,7 @@ class Queue {
      }
  }
  
- static func getSolution() -> Void {
+func getSolution() -> Void {
      
      let queue = Queue()
      queue.push(1); queue.push(2); queue.push(3); queue.push(4);

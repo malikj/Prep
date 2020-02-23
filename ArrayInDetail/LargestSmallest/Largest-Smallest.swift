@@ -58,27 +58,24 @@ public class Medium215: NSObject {
 
 class LargestAndSmallest {
     
-    static func searchInsert(nums: [Int], target: Int) -> Int {
-           var low: Int = 0
-           var high: Int = nums.count - 1
-           while low <= high {
-               let mid: Int = low + (high - low)/2
-               if target < nums[mid] {
-                   high = mid - 1
-               } else if target > nums[mid] {
-                   low = mid + 1
-               } else {
-                   return mid
-               }
-           }
-           return low
-       }
+  
     
     // Largest sum contiguous increasing subarray  O(n) time complexity.
     // https://www.geeksforgeeks.org/largest-sum-contiguous-increasing-subarray/
 
+    // Largest sum contiguous increasing subarray
+
     
    // https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
+    
+    //
+    
+    /*
+     
+     A simple solution is to sort the given array using a O(N log N) sorting algorithm like Merge Sort, Heap Sort, etc and return the element at index k-1 in the sorted array.
+
+     Time Complexity of this solution is O(N Log N)
+     */
     
     // Input: arr[] = {7, 10, 4, 3, 20, 15}
    //  k = 3
@@ -97,25 +94,7 @@ class LargestAndSmallest {
       }
     }
  
-    
-    static func searchElement(arr:inout [Int], element:Int) {
-        if(arr[arr.count-1] == element){
-            print("element found")
-        }
-        let backup = arr[arr.count-1]
-        arr[arr.count-1] = element
-        for i in 0..<arr.count {
-            if (arr[i] == element) {
-                arr[arr.count - 1] = backup;
-                if (i < arr.count - 1) {
-                    print("element found")
-                }
-                else {
-                    print("notfound")
-                }
-            }
-        }
-    }
+
     
     // back and forth search :
     
