@@ -765,8 +765,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "312"
             endingLineNumber = "312"
-            landmarkName = "ViewControllerTwo"
-            landmarkType = "3">
+            landmarkName = "FindLargestContiguousSubArrayNaiveWithKadanes()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -925,8 +925,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "219"
             endingLineNumber = "219"
-            landmarkName = "printPairs()"
-            landmarkType = "7">
+            landmarkName = "ViewControllerTwo"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1837,7 +1837,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "366"
             endingLineNumber = "366"
-            landmarkName = "FindLargestContiguousSubArrayNaiveWithKadanes()"
+            landmarkName = "hasTwoConditates()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1853,7 +1853,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "356"
             endingLineNumber = "356"
-            landmarkName = "FindLargestContiguousSubArrayNaiveWithKadanes()"
+            landmarkName = "hasTwoConditates()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2413,7 +2413,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "338"
             endingLineNumber = "338"
-            landmarkName = "FindLargestContiguousSubArrayNaiveWithKadanes()"
+            landmarkName = "findPairWithGivenSum(arr:givensum:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2429,7 +2429,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "349"
             endingLineNumber = "349"
-            landmarkName = "FindLargestContiguousSubArrayNaiveWithKadanes()"
+            landmarkName = "findPairWithGivenSum(arr:givensum:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2445,7 +2445,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "343"
             endingLineNumber = "343"
-            landmarkName = "FindLargestContiguousSubArrayNaiveWithKadanes()"
+            landmarkName = "findPairWithGivenSum(arr:givensum:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
