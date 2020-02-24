@@ -440,9 +440,9 @@ class ViewController: UIViewController {
 ////
 ////        findMissingNumberSortedThree(missingValuesArrayThree);
 //        
-////        let missingValuesArrayFour = [2, 3, -7, 6, 8, 1, -10, 15];
-////
-////        findMissingNumberUnsorted(missingValuesArrayFour)
+        let missingValuesArrayFour = [2, 3, -7, 6, 8, 1, -10, 15];
+
+        findMissingNumberUnsorted(missingValuesArrayFour)
 //////
 ////        let dupValuesArrayTwo = [1, 2, 3, 1];
 ////
@@ -628,10 +628,13 @@ class ViewController: UIViewController {
    //  Output: 3
     
     
+    // https://www.geeksforgeeks.org/find-the-missing-number-in-a-sorted-array/
     ///  A binary search based program to find the
     // only missing number in a sorted array of
     // distinct elements within limited range.
     // https://www.tutorialspoint.com/data_structures_algorithms/binary_search_algorithm.htm
+    
+    // https://www.geeksforgeeks.org/find-the-only-missing-number-in-a-sorted-array/
     func findMissingNumberSorted(_ valueArray:[Int]) {
 //        let missingValuesArrayTwo = [4, 5, 6, 7, 19,20];
         var missing = 0
@@ -723,6 +726,7 @@ class ViewController: UIViewController {
      else  // i.e., A[abs(A[i])] is negative
      this   element (ith element of list) is a repetition
      }
+     
  */
     func findMissingNumberUnsorted(_ valueArray: [Int]) {
         
@@ -1233,6 +1237,9 @@ class ViewController: UIViewController {
 //           }
 //           arr[j++] = arr[n-1];
 //           return j;
+    
+    // Method 2: (Constant extra space)
+   //  Just maintain a separate index for same array as maintained for different array in
         
         func RemoveDuplicates() {
             
@@ -1242,7 +1249,6 @@ class ViewController: UIViewController {
              var j = 0;
             
             for i in 0..<intArray.count-1 {
-                
                 if (intArray[i] != intArray[i+1]) {
                     intArray[j] = intArray[i];
                     j += 1;
@@ -1323,6 +1329,7 @@ class ViewController: UIViewController {
 
         
         // MARK - Fibonacci Function
+    // DP
         func fibonacci(_ n: Int) -> Int {
             var memo = [Int:Int]()
 
@@ -1366,18 +1373,36 @@ class ViewController: UIViewController {
         }
 
 
+//    void isPalindromeString(char str[])
+//    {
+//        // Start from leftmost and rightmost corners of str
+//        int l = 0;
+//        int h = strlen(str) - 1;
+//
+//        // Keep comparing characters while they are same
+//        while (h > l)
+//        {
+//            if (str[l++] != str[h--])
+//            {
+//                printf("%s is Not Palindrome", str);
+//                return;
+//            }
+//        }
+//        printf("%s is palindrome", str);
+//    }
+//
         
         func checkPolindromeOrNot() {
             
           print("fibvalue \(fib(9))");
             
             printFibSeries(100);
+            
             var nuber = 2002
             let temp = nuber;
             var sum = 0;
             var reverse = 0;
         
-            
             while(nuber>0){
                 reverse = nuber%10;
                 print("reverse:\(reverse)");
@@ -1428,30 +1453,30 @@ class ViewController: UIViewController {
         return negative ? -result : result
     }
         
-         func Reversesolution(_ array:[Int]) -> [Int] {
-              var reverseArray: [Int] = [Int]()
-              var i = array.count - 1
-              while i >= 0 {
-                  reverseArray.append(array[i])
-                  i =  i - 1
-              }
-              return reverseArray
-          }
+    func Reversesolution(_ array:[Int]) -> [Int] {
+        var reverseArray: [Int] = [Int]()
+        var i = array.count - 1
+        while i >= 0 {
+            reverseArray.append(array[i])
+            i =  i - 1
+        }
+        return reverseArray
+    }
           
-           func solutionWithSameArray(_ arr:[Int]) -> [Int] {
-              var array = arr
-              var start = 0
-              var end = array.count - 1
-              while start < end {
-                  let temp = array[start]
-                  array[start] = array[end]
-                 array[end] = temp
-                  start = start + 1
-                  end = end - 1
-
-              }
-              return array
-          }
+    func solutionWithSameArray(_ arr:[Int]) -> [Int] {
+        var array = arr
+        var start = 0
+        var end = array.count - 1
+        while start < end {
+            let temp = array[start]
+            array[start] = array[end]
+            array[end] = temp
+            start = start + 1
+            end = end - 1
+            
+        }
+        return array
+    }
     
  
     func mergeSort(_ array: [Int]) -> [Int] {

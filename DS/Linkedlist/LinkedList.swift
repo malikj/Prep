@@ -56,22 +56,7 @@ import Foundation
 
 import Foundation
 
-extension MyLinkedList: ExpressibleByArrayLiteral {
-    
-    public convenience init(arrayLiteral elements: T...) {
-        self.init()
-        var previous: Node? = nil
-        
-        for element in elements {
-            let newNode = Node(element)
-            previous?.next = newNode
-            if head == nil {
-                head = newNode
-            }
-            previous = newNode
-        }
-    }
-}
+
 
 public final class MyLinkedList<T:Equatable> {
     
@@ -91,6 +76,24 @@ public final class MyLinkedList<T:Equatable> {
     
     public var isEmpty: Bool {
         return head == nil
+    }
+}
+
+
+extension MyLinkedList: ExpressibleByArrayLiteral {
+    
+    public convenience init(arrayLiteral elements: T...) {
+        self.init()
+        var previous: Node? = nil
+        
+        for element in elements {
+            let newNode = Node(element)
+            previous?.next = newNode
+            if head == nil {
+                head = newNode
+            }
+            previous = newNode
+        }
     }
 }
 

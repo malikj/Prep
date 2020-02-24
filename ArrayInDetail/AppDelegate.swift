@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
 //        HashingProblemsss();
       
-        SearchProblems();
+//        SearchProblems();
         return true
     }
     

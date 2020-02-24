@@ -49,8 +49,8 @@
             timestampString = "553853682.539439"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "743"
-            endingLineNumber = "743"
+            startingLineNumber = "744"
+            endingLineNumber = "744"
             landmarkName = "findmissingPositive(_:_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -66,8 +66,8 @@
             timestampString = "553853682.539734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "746"
-            endingLineNumber = "746"
+            startingLineNumber = "747"
+            endingLineNumber = "747"
             landmarkName = "findmissingPositive(_:_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -83,8 +83,8 @@
             timestampString = "553853682.5400259"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "737"
-            endingLineNumber = "737"
+            startingLineNumber = "738"
+            endingLineNumber = "738"
             landmarkName = "ViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -100,8 +100,8 @@
             timestampString = "553853682.541538"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "867"
-            endingLineNumber = "867"
+            startingLineNumber = "868"
+            endingLineNumber = "868"
             landmarkName = "duplicates1()"
             landmarkType = "7">
          </BreakpointContent>
@@ -117,8 +117,8 @@
             timestampString = "553853682.541827"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "960"
-            endingLineNumber = "960"
+            startingLineNumber = "961"
+            endingLineNumber = "961"
             landmarkName = "countPairNaiveMethid(_:k:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -134,8 +134,8 @@
             timestampString = "553853682.542128"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "966"
-            endingLineNumber = "966"
+            startingLineNumber = "967"
+            endingLineNumber = "967"
             landmarkName = "countPairNaiveMethid(_:k:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -151,8 +151,8 @@
             timestampString = "553853682.5424139"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "970"
-            endingLineNumber = "970"
+            startingLineNumber = "971"
+            endingLineNumber = "971"
             landmarkName = "countPairNaiveMethid(_:k:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -168,8 +168,8 @@
             timestampString = "553853682.542702"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "962"
-            endingLineNumber = "962"
+            startingLineNumber = "963"
+            endingLineNumber = "963"
             landmarkName = "countPairNaiveMethid(_:k:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -315,8 +315,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "833"
-            endingLineNumber = "833"
+            startingLineNumber = "834"
+            endingLineNumber = "834"
             landmarkName = "dupPractice()"
             landmarkType = "7">
          </BreakpointContent>
@@ -331,8 +331,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "974"
-            endingLineNumber = "974"
+            startingLineNumber = "975"
+            endingLineNumber = "975"
             landmarkName = "countPairNaiveMethid(_:k:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -395,8 +395,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "996"
-            endingLineNumber = "996"
+            startingLineNumber = "997"
+            endingLineNumber = "997"
             landmarkName = "countPairsWithDiffK(_:k:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -411,8 +411,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1100"
-            endingLineNumber = "1100"
+            startingLineNumber = "1101"
+            endingLineNumber = "1101"
             landmarkName = "findCommonElementsInTwoArrayWithHashing()"
             landmarkType = "7">
          </BreakpointContent>
@@ -427,8 +427,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "923"
-            endingLineNumber = "923"
+            startingLineNumber = "924"
+            endingLineNumber = "924"
             landmarkName = "binarySearchMidLow(_:searchElement:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -437,14 +437,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "74900DB6-24D9-4232-BFD3-25D61AA1B64A"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1043"
-            endingLineNumber = "1043"
+            startingLineNumber = "1044"
+            endingLineNumber = "1044"
             landmarkName = "printPairsUsingSet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -459,8 +459,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1052"
-            endingLineNumber = "1052"
+            startingLineNumber = "1053"
+            endingLineNumber = "1053"
             landmarkName = "minSum(num:k:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -475,8 +475,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1055"
-            endingLineNumber = "1055"
+            startingLineNumber = "1056"
+            endingLineNumber = "1056"
             landmarkName = "minSum(num:k:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -555,8 +555,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1412"
-            endingLineNumber = "1412"
+            startingLineNumber = "1434"
+            endingLineNumber = "1434"
             landmarkName = "reverseString(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -571,8 +571,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1420"
-            endingLineNumber = "1420"
+            startingLineNumber = "1442"
+            endingLineNumber = "1442"
             landmarkName = "reverse(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -587,8 +587,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1318"
-            endingLineNumber = "1318"
+            startingLineNumber = "1321"
+            endingLineNumber = "1321"
             landmarkName = "countPairs(inputArray:sum:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -603,8 +603,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1324"
-            endingLineNumber = "1324"
+            startingLineNumber = "1327"
+            endingLineNumber = "1327"
             landmarkName = "ViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -971,8 +971,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "871"
-            endingLineNumber = "871"
+            startingLineNumber = "872"
+            endingLineNumber = "872"
             landmarkName = "ViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -1003,8 +1003,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "890"
-            endingLineNumber = "890"
+            startingLineNumber = "891"
+            endingLineNumber = "891"
             landmarkName = "binarySearch(inputArr:searchItem:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1172,22 +1172,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "ACFBA152-1653-497F-B682-BA970A319720"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArrayInDetail/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "221"
-            endingLineNumber = "221"
-            landmarkName = "ViewController"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "4402C8EB-D904-48F5-9230-B943A41A13C2"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -1269,7 +1253,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "79507CE1-E4CC-44B6-91E4-4E3915852231"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ArrayInDetail/Duplicates/MinMax.swift"
@@ -1278,54 +1262,6 @@
             startingLineNumber = "55"
             endingLineNumber = "55"
             landmarkName = "MaxArrayAfterKOperation()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DF2B010A-1CB1-4B9A-8607-19F3453E7165"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArrayInDetail/Duplicates/MinMax.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "minimumSumArrayAfterOperation()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "88A75BB4-AA57-46B5-90B2-5B104AC85E3B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArrayInDetail/Duplicates/MinMax.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
-            landmarkName = "minimumSumArrayAfterOperation()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7146DBAE-405A-4490-8757-473DA75C4FBF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArrayInDetail/Duplicates/MinMax.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "minimumSumArrayAfterOperation()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1355,8 +1291,8 @@
             filePath = "ArrayInDetail/SubArray/SubArrayGivenSum.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
             landmarkName = "FindLargestContiguousSubArrayWithKadanes()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1371,8 +1307,8 @@
             filePath = "ArrayInDetail/SubArray/SubArrayGivenSum.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "160"
-            endingLineNumber = "160"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "CheckSubArrayWithGivenSum(arr:givensum:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1406,22 +1342,6 @@
             startingLineNumber = "118"
             endingLineNumber = "118"
             landmarkName = "rearraingeInGroup()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "420A6942-54A6-47B0-8D1D-2B114E4D522A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArrayInDetail/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "228"
-            endingLineNumber = "228"
-            landmarkName = "LCMediumProblems()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1566,22 +1486,6 @@
             startingLineNumber = "131"
             endingLineNumber = "131"
             landmarkName = "GroupBy()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "FD571EEF-A979-42C0-9FCC-0838F41B9EC8"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArrayInDetail/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "226"
-            endingLineNumber = "226"
-            landmarkName = "LCMediumProblems()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1771,8 +1675,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "813"
-            endingLineNumber = "813"
+            startingLineNumber = "814"
+            endingLineNumber = "814"
             landmarkName = "removeDuplicatesFromSortedArray(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1787,8 +1691,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "827"
-            endingLineNumber = "827"
+            startingLineNumber = "828"
+            endingLineNumber = "828"
             landmarkName = "dupPractice()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1835,24 +1739,8 @@
             filePath = "ArrayInDetail/SubArray/SubArrayGivenSum.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "366"
-            endingLineNumber = "366"
-            landmarkName = "hasTwoConditates()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8C5C7259-BC4E-4C23-99DF-A29721D1ABA1"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArrayInDetail/SubArray/SubArrayGivenSum.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "356"
-            endingLineNumber = "356"
+            startingLineNumber = "368"
+            endingLineNumber = "368"
             landmarkName = "hasTwoConditates()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1867,8 +1755,8 @@
             filePath = "ArrayInDetail/SubArray/SubArrayGivenSum.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
             landmarkName = "FindLargestContiguousSubArrayWithKadanes()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1883,8 +1771,8 @@
             filePath = "ArrayInDetail/SubArray/SubArrayGivenSum.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "FindLargestContiguousSubArrayWithKadanes()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1899,8 +1787,8 @@
             filePath = "ArrayInDetail/SubArray/SubArrayGivenSum.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "167"
-            endingLineNumber = "167"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
             landmarkName = "PrintAllSubArrayWithZero()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1915,8 +1803,8 @@
             filePath = "ArrayInDetail/LargestSmallest/Largest-Smallest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "185"
-            endingLineNumber = "185"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
             landmarkName = "binarySearchMidLow(_:searchElement:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1931,8 +1819,8 @@
             filePath = "ArrayInDetail/LargestSmallest/Largest-Smallest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "183"
-            endingLineNumber = "183"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
             landmarkName = "LargestAndSmallest"
             landmarkType = "3">
          </BreakpointContent>
@@ -1947,8 +1835,8 @@
             filePath = "ArrayInDetail/LargestSmallest/Largest-Smallest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "174"
-            endingLineNumber = "174"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
             landmarkName = "binarySearch(inputArr:searchItem:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2269,7 +2157,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "255"
                   endingLineNumber = "255"
-                  offsetFromSymbolStart = "590">
+                  offsetFromSymbolStart = "480">
                </Location>
                <Location
                   uuid = "F1491AF1-A3A5-41DC-88A3-F22BED3112E9 - a00a760487597953"
@@ -2284,7 +2172,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "255"
                   endingLineNumber = "255"
-                  offsetFromSymbolStart = "20">
+                  offsetFromSymbolStart = "48">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -2331,8 +2219,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1281"
-            endingLineNumber = "1281"
+            startingLineNumber = "1284"
+            endingLineNumber = "1284"
             landmarkName = "findPairWithGivenSum(arr:givensum:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2341,38 +2229,6 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "DFD48B7A-0E81-4280-9588-A361965B0FA0"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArrayInDetail/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1290"
-            endingLineNumber = "1290"
-            landmarkName = "findPairWithGivenSum(arr:givensum:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DFF47714-4DFC-4D4E-93E4-6E8BC771DA79"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArrayInDetail/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1298"
-            endingLineNumber = "1298"
-            landmarkName = "findPairWithGivenSum(arr:givensum:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1EA70519-6E63-44C8-8A27-1B19623168F6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -2388,6 +2244,38 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "DFF47714-4DFC-4D4E-93E4-6E8BC771DA79"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArrayInDetail/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1301"
+            endingLineNumber = "1301"
+            landmarkName = "findPairWithGivenSum(arr:givensum:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EA70519-6E63-44C8-8A27-1B19623168F6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArrayInDetail/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1296"
+            endingLineNumber = "1296"
+            landmarkName = "findPairWithGivenSum(arr:givensum:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             uuid = "6C0F586F-F0F1-41FE-9671-9B5F3E44FFEF"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -2395,8 +2283,8 @@
             filePath = "ArrayInDetail/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1288"
-            endingLineNumber = "1288"
+            startingLineNumber = "1291"
+            endingLineNumber = "1291"
             landmarkName = "findPairWithGivenSum(arr:givensum:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2405,46 +2293,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "94B3F9FC-BF82-4E9A-AB88-CA1E5E067F43"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ArrayInDetail/SubArray/SubArrayGivenSum.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "338"
-            endingLineNumber = "338"
-            landmarkName = "findPairWithGivenSum(arr:givensum:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3DA78FC1-301A-44D4-B0E6-DD0590306046"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArrayInDetail/SubArray/SubArrayGivenSum.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "349"
-            endingLineNumber = "349"
-            landmarkName = "findPairWithGivenSum(arr:givensum:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7C0013F6-90D6-4162-AF48-1851D75313C4"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArrayInDetail/SubArray/SubArrayGivenSum.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "343"
-            endingLineNumber = "343"
+            startingLineNumber = "340"
+            endingLineNumber = "340"
             landmarkName = "findPairWithGivenSum(arr:givensum:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2718,6 +2574,54 @@
             startingLineNumber = "70"
             endingLineNumber = "70"
             landmarkName = "searchElementInArray()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "222A2C11-085B-4D1F-BE64-1915EAF3145A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArrayInDetail/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "734"
+            endingLineNumber = "734"
+            landmarkName = "findMissingNumberUnsorted(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B70EA5B-9F58-4668-B355-36AFCC5C14EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArrayInDetail/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "445"
+            endingLineNumber = "445"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE2AACED-7ADB-4F1B-A662-01425410B3EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArrayInDetail/Duplicates/RemoveDuplicate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "LongestConsecutiveSequence()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

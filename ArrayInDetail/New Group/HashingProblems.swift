@@ -13,6 +13,35 @@ import Foundation
 class HashingProblems {
     
     
+        func findCommonElementsInTwoArrayWithHashing() {
+            let firstArray = [9,54,59,60,66,362,372,399,400,411,428]
+            let secondArray = [9,400,62,399]
+            var hashDic : [Int:Int] = [:]
+            for i in firstArray {
+                hashDic[i] = 1
+            }
+            // HashDic = [9:1,
+            // 54:1,
+            // 59:1,
+            // 60:1]
+            
+            
+            for k in secondArray {
+                // if 400 is present in dic -
+                if (hashDic[k] != nil) {
+                    print("common element is \(k)")
+
+                }
+            }
+    //        for j in secondArray {
+    //            if (hashDic[j] != nil) {
+    //                print("common element is \(j)")
+    //            }
+    //        }
+            
+            
+        }
+    
     // https://www.geeksforgeeks.org/find-subarray-with-given-sum-in-array-of-integers/
     
         func FindSubArrayWithGivenSum(arr:[Int],givensum:Int) {
@@ -301,6 +330,29 @@ class HashingProblems {
             
             
         }
+    
+    func printPairsUsingSet()  {
+            
+    //       Input  :  arr[] = {1, 5, 7, -1},
+            // pair with given no is ( 5 , 1 )
+    // pair with given no is ( -1 , 7 )
+            let intArray = [1, 5, 7,-1,4,2]
+            let sum = 6
+        
+            if intArray.count > 2 {
+                var dic :[Int:Int] = [:]
+                for i in intArray {
+                    let target = sum - i
+                    if(target>0 && dic[target]==1) {
+                        print("pair with given no is ( \(i) , \(target) )")
+                    }
+                    else {
+                        dic[i] = 1;
+                    }
+                }
+            }
+        }
+        
     
     // https://www.geeksforgeeks.org/find-whether-an-array-is-subset-of-another-array-set-1/
     static func isSubSet() {
